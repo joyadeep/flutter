@@ -1,5 +1,12 @@
 # firstapp
 
+## what i have learned ?
+### - Scaffhold widget
+### - Text widget
+### - FloatingActionButton
+
+
+
 A new Flutter project.
 
 ## Getting Started
