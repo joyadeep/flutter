@@ -1,16 +1,10 @@
-# firstapp
+# Flutter Day 4
 
-A new Flutter project.
+## Buttons and Icons
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### what i have learned ?
+  - Adding material icons in the app with Icon widget
+  - Styling icons
+  - Buttons (ElevatedButton (RaisedButton:depricated) and TextButton (FlatButton:depricated))
+  - Adding buttons and styling them
+  - Using icons with button wiht ElevatedButton.icon and TextButton.icon
