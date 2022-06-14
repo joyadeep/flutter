@@ -2,34 +2,32 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Todo App',
-            style: TextStyle(
-              fontSize: 32,
-            ),
-          ),
-          centerTitle: true,
-        ),
-        body: const Center(
-          child: Text(
-            'This is body',
-            style: TextStyle(
-              fontSize: 32.0,
-              fontWeight: FontWeight.w600,
-              color: Color.fromARGB(255, 171, 55, 203),
-            ),
-          ),
-        ),
-        floatingActionButton: FloatingActionButton(
-            onPressed: () {},
-            child: Text(
-              '+',
-              style: TextStyle(fontSize: 40, fontWeight: FontWeight.w100),
-            )),
-      ),
-    ),
+    MaterialApp(home: Home()),
   );
+}
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'Todo App 2',
+          style: TextStyle(
+              fontSize: 32.0,
+              fontWeight: FontWeight.w700,
+              letterSpacing: 2.0,
+              fontFamily: 'Poppins'),
+        ),
+        centerTitle: true,
+      ),
+      body: Center(child: Image.asset('assets/images/background.jpg')),
+      floatingActionButton: FloatingActionButton(
+          onPressed: (() => {}),
+          child: Text(
+            '+',
+            style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.w300),
+          )),
+    );
+  }
 }
