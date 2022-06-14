@@ -1,16 +1,11 @@
-# firstapp
+# Flutter Day 3
 
-A new Flutter project.
+## Stateless Widget & hot reload , Images
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### What i have learned ?
+  - widget types (stateless and stateful)
+  - Building widget and callin it in main ()
+  - automating hot reload wiht stateless widget
+  - Adding images in the app
+  - Types of ways to use image (network and asset)
+  - Editing pubspec.yaml file to include image from assets
